@@ -1,0 +1,2 @@
+# libspurdoxx
+C++ spurdo library.
