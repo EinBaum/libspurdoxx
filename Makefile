@@ -1,6 +1,6 @@
 all:
-	g++ libspurdoxx.cpp -std=c++11 -Os -Wall -c -fpic
-	g++ -shared -o libspurdoxx.so libspurdoxx.o
+	c++ libspurdoxx.cpp -std=c++11 -Os -Wall -c -fpic
+	c++ -shared -o libspurdoxx.so libspurdoxx.o
 
 install:
 	#You'll probably want to run this as root.
